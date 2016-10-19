@@ -10,7 +10,7 @@ var engine *xorm.Engine
 
 type User struct {
 	ID       int    `json:"id" xorm:"'id'"`
-	UserName string `json:"name" xrom:"'nickname'"`
+	UserName string `json:"name" xorm:"'nickname'"`
 }
 
 type UserRepository struct{}
